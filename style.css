@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: arial;
+}
+html {
+  font-size: 20px;
+}
+.container {
+  width: 57rem;
+  border: 3px solid red;
+  min-height: 2.5rem;
+  margin: 0 auto;
+  padding: 0 0.8rem;
+}
+.navbar {
+  background-color: #322E41;
+}
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-logo {
+  width: 5rem;
+}
+.navbar-links {
+  display: flex;
+}
+.navbar-link {
+  display: flex;
+  color: white;
+  padding: 23px 14px;
+}
+.navbar-link:hover {
+  color: #D47300;
+  background-color: white;
+}
+.header {
+  height: 500px;
+  background-image: url(./img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header h2 {
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.header p {
+  font-size: 18px;
+  color: #ffffff;
+}
+/* nike */
+.nike {
+  background-color: #EBEBEB;
+} 
+.nike-content {
+  display: flex;
+  justify-content: space-between;
+}
+.nike-main, .nike-product {
+  transform: translateY(-40px);
+}
+.nike-main {
+  width: 540px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+}
+.nike-main h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.nike-main p {
+  color: #9B9B9B;
+}
+.nike-product {
+  width: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.nike-card {
+  width: 255px;
+  padding: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-radius: 6px;
+}
+.nike-card h4 {
+  font-size: 22px;
+}
+.nike-card p {
+  color: #9B9B9B;
+  line-height: 16px;
+}
+/* footer */
+.footer {
+  padding-top: 37px;
+  padding: 57px;
+  background-color: #322E41;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+}
+.footer-login input { 
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.footer-login textarea {
+  height: 86px;
+  resize: none;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 18px;
+}
+.footer-login button {
+  background-color: #544294;
+  border: none;
+  padding: 3px 0;
+  color: #fff;
+  border-radius: 6px;
+}
+.footer-menu {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 68px;
+  row-gap: 10px;
+}
+.footer-link {
+  color: white;
+}
+.footer-link:hover {
+  color: #D47300;
+}
+/* footer end */
